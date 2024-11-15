@@ -22,6 +22,8 @@ LangChain is beneficial when there is a requirement for building a custom AI imp
 
 For simplicity, OpenAI API client is used to review the source code and provide an overall Code Quality Score for a file fetched from GitHub repository.\
 
+For a Production use case, AI tools are available that integrate directly with the CI/CD pipeline to perform the code analysis.
+
 
 
 

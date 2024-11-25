@@ -18,9 +18,11 @@ Steps to get the project up and running
 
 ## LangChain
 
-LangChain is beneficial when there is a requirement for building a custom AI implementation for reviewing source code.\
+While LangChain is a powerful tool for building applications around language models, \
+it introduces additional complexity and dependencies that may not be necessary for simpler use cases. 
 
-For simplicity, OpenAI API is used to review the source code and provide an overall Code Quality Score for a file fetched from GitHub repository.\
+The ChatGPT API offers a more straightforward and efficient solution, especially in cases where we need to \
+quickly integrate language processing into our applications without managing intricate frameworks.
 
 For a Production use case, AI tools are available that integrate directly with the CI/CD pipeline to perform the code analysis.
 
